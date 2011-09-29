@@ -1,0 +1,253 @@
+%body
+  / splash
+  #in-splash-container
+    .in-splash
+      .in-splash-content
+        .in-splash-left
+          %h1 The professional landing page that gets your message across and tailored to client goals with ROI in mind
+          %ul
+            %li Caters for all businesses
+            %li Transitional Testimonials
+            %li Design provides credibility
+            %li Photo and video lightbox
+            %li Cross browser compatibility
+            %li PHP Form Validation
+        %span.in-splash-right
+          = image_tag "in-splash.jpg", :height => "283", :width => "460"
+        %span.in-splash-buttons
+          %span.splash-button
+            %a{:href => "#"} Buy Now
+          %span.splash-link
+            %a{:href => "#"} Take a Tour
+  #ge-header-container
+    .ge-header
+      .ge-logo
+        = image_tag "ge-logo.png", :height => "35", :width => "153"
+  #in-benefits-container
+    .in-benefits
+      %ul
+        %li
+          %span.benefits-icon
+            = image_tag "benefits/benefits-001.gif", :height => "70", :src => "", :width => "70"
+          .benefits-text
+            %h2 Less Risky
+            %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc bibendum turpis.
+            %ul.in-more
+              %li.morestart
+                %a{:href => "#"} Learn More
+              %li
+                %a{:href => "#"} Preview
+        %li
+          %span.benefits-icon
+            = image_tag "benefits/benefits-002.gif", :height => "70" , :width => "70"
+          .benefits-text
+            %h2 Quick and Easy
+            %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc bibendum turpis.
+            %ul.in-more
+              %li.morestart
+                %a{:href => "#"} Learn More
+              %li
+                %a{:href => "#"} Preview
+        %li.endbenefits
+          %span.benefits-icon
+            = image_tag "benefits/benefits-003.gif", :height => "70", :width => "70"
+          .benefits-text
+            %h2 Scalable
+            %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc bibendum turpis.
+            %ul.in-more
+              %li.morestart
+                %a{:href => "#"} Learn More
+              %li
+                %a{:href => "#"} Preview
+        %li
+          %span.benefits-icon
+            = image_tag "benefits/benefits-004.gif", :height => "70", :width => "70"
+          .benefits-text
+            %h2 Customised
+            %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc bibendum turpis.
+            %ul.in-more
+              %li.morestart
+                %a{:href => "#"} Learn More
+              %li
+                %a{:href => "#"} Preview
+        %li
+          %span.benefits-icon
+            = image_tag "benefits/benefits-005.gif", :height => "70", :width => "70"
+          .benefits-text
+            %h2 Support
+            %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc bibendum turpis.
+            %ul.in-more
+              %li.morestart
+                %a{:href => "#"} Learn More
+              %li
+                %a{:href => "#"} Preview
+        %li.endbenefits
+          %span.benefits-icon
+            = image_tag "benefits/benefits-006.gif", :height => "70", :width => "70"
+          .benefits-text
+            %h2 User Friendly
+            %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc bibendum turpis.
+            %ul.in-more
+              %li.morestart
+                %a{:href => "#"} Learn More
+              %li
+                %a{:href => "#"} Preview
+      .clear
+  #in-testimonials-container
+    %ul.in-testimonials
+      %li
+        %span.testimonial-logo
+          = image_tag "testimonials/logo-001.gif", :height => "52", :width => "138"
+        %span.testimonial-text
+          The Autopilot template has helped us convert users to buyers at an unbelievable rate.
+          %br
+          I highly recommend this to everyone serious about making money online!
+      %li
+        %span.testimonial-logo
+          = image_tag "testimonials/logo-002.gif", :height => "52", :width => "138"
+        %span.testimonial-text
+          Two thumbs up! This template exceeded my expectation, it contains all the necessary modules
+          %br
+          for me to offer all my clients a generic and professional solution.
+      %li
+        %span.testimonial-logo
+          = image_tag "testimonials/logo-003.gif", :height => "52", :width => "138"
+        %span.testimonial-text
+          This template is fantastic! The Autopilot template has been with us since day one of offering a
+          %br
+          landing page service. All our customers have been happy with it - this is a worthwhile purchase!
+  #in-quote-container
+    .in-quote
+      .quote
+        .quote-text
+          %h2 Request a Quote
+          %p
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc bibendum turpis ut est lacinia id molestie mauris fermentum.
+            %br/
+            %br/
+            %strong Phone:
+            1300 000 000
+            %br/
+            %br/
+            %strong Address:
+            %br/
+            29 Bourke Street, Melbourne
+            %br/
+            Victoria, Australia, 3000
+        .quote-form
+          %form#in-quote-form{:action => "process.php", :method => "post"}
+            %fieldset
+              .form-left
+                %label{:for => "fullname"}
+                  Full Name
+                  %span *
+                %input#fullname{:name => "fullname", :type => "text"}/
+              .form-right
+                %label{:for => "emailaddress"}
+                  Email
+                  %span *
+                %input#emailaddress{:name => "emailaddress", :type => "text"}/
+              %label{:for => "message"}
+                Message
+                %span *
+              %textarea#message{:cols => "10", :name => "message", :rows => "5"}
+              %button{:type => "submit"} Send
+      .screenshots
+        %ul.gallery
+          %li
+            %span.in-screenshots-view
+              = image_tag "in-screenshot-view.png", :height => "19", :width => "19"
+            %a{:href => "screenshots/screenshot-001.jpg", :rel => "prettyPhoto[gallery]"}
+              = image_tag "screenshots/thumbnail-001.jpg", :height => "76", :width => "138"
+          / /screenshot item
+          %li.endscreenshot
+            %span.in-screenshots-view
+              = image_tag "in-screenshot-view.png", :height => "19", :width => "19"
+            %a{:href => "screenshots/screenshot-002.jpg", :rel => "prettyPhoto[gallery]"}
+              = image_tag "screenshots/thumbnail-002.jpg", :height => "76", :width => "138"
+          %li
+            %span.in-screenshots-view
+              = image_tag "in-screenshot-view.png", :height => "19", :width => "19"
+            %a{:href => "screenshots/screenshot-003.jpg", :rel => "prettyPhoto[gallery]"}
+              = image_tag "screenshots/thumbnail-003.jpg", :height => "76", :width => "138"
+          %li.endscreenshot
+            %span.in-screenshots-view
+              = image_tag "in-screenshot-view.png", :height => "19", :width => "19"
+            %a{:href => "screenshots/screenshot-004.jpg", :rel => "prettyPhoto[gallery]"}
+              = image_tag "screenshots/thumbnail-004.jpg", :height => "76", :width => "138"
+          %li
+            %span.in-screenshots-view
+              = image_tag "in-screenshot-view.png", :height => "19", :width => "19"
+            %a{:href => "screenshots/screenshot-005.jpg", :rel => "prettyPhoto[gallery]"}
+              = image_tag "screenshots/thumbnail-005.jpg", :height => "76", :width => "138"
+          %li.endscreenshot
+            %span.in-screenshots-view
+              = image_tag "in-screenshot-view.png", :height => "19", :width => "19"
+            %a{:href => "screenshots/screenshot-006.jpg", :rel => "prettyPhoto[gallery]"}
+              = image_tag "screenshots/thumbnail-006.jpg", :height => "76", :width => "138"
+  #in-clients-container
+    .in-clients
+      %h3
+        The Autopilot template has been used and approved by the best designers
+        %br
+        and companies from around the world.
+      %ul
+        %li
+          = image_tag "clients/logo-001.gif", :height => "64", :width => "116"
+        %li
+          = image_tag "clients/logo-002.gif", :height => "64", :width => "116"
+        %li
+          = image_tag "clients/logo-003.gif", :height => "64", :width => "116"
+        %li
+          = image_tag "clients/logo-004.gif", :height => "64", :width => "116"
+        %li
+          = image_tag "clients/logo-005.gif", :height => "64", :width => "116"
+        %li
+          = image_tag "clients/logo-006.gif", :height => "64", :width => "116"
+        %li.endclients
+          = image_tag "clients/logo-007.gif", :height => "64", :width => "116"
+  #ge-footer-container
+    .ge-footer
+      .ge-calltoaction
+        %h4 Get started now and receive 30 days trial
+        %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc bibendum turpis ut est lacinia id molestie mauris fermentum. Donec nec iaculis ipsum. Nullam at orci lectus. Pellentesque ac viverra odio.
+      %span.ge-calltoaction-button
+        %a{:href => "#"} Buy Now
+      .clear
+      .ge-copyright
+        %ul.copyright
+          %li.copyrightstart © 2010 Autopilot. All rights reserved
+          %li
+            %a{:href => "#"} Contact
+          %li
+            %a{:href => "#"} Help & Support
+        %ul.socialmedia
+          %li
+            %a{:href => "#"}
+              = image_tag "social/icon-digg.png", :height => "16", :width => "16"
+          %li
+            %a{:href => "#"}
+              = image_tag "social/icon-facebook.png", :height => "16", :width => "16"
+          %li
+            %a{:href => "#"}
+              = image_tag "social/icon-flickr.png", :height => "16", :width => "16"
+          %li
+            %a{:href => "#"}
+              = image_tag "social/icon-linkedin.png", :height => "16", :width => "16"
+          %li
+            %a{:href => "#"}
+              = image_tag "social/icon-rss.png", :height => "16", :width => "16"
+          %li
+            %a{:href => "#"}
+              = image_tag "social/icon-skype.png", :height => "16", :width => "16"
+          %li
+            %a{:href => "#"}
+              = image_tag "social/icon-twitter.png", :height => "16", :width => "16"
+          %li
+            %a{:href => "#"}
+              = image_tag "social/icon-vimeo.png", :height => "16", :width => "16"
+          %li
+            %a{:href => "#"}
+              = image_tag "social/icon-youtube.png", :height => "16", :width => "16"
+  :javascript
+    Cufon.now();
