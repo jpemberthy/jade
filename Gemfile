@@ -17,4 +17,5 @@ end
 
 group :production do
   gem "pg"
+  gem "therubyracer-heroku"
 end
