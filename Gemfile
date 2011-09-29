@@ -1,16 +1,20 @@
-source 'http://rubygems.org'
+source "http://rubygems.org"
 
-gem 'rails'
-gem 'sqlite3'
-gem 'haml'
+gem "rails"
+gem "sqlite3"
+gem "haml"
 
 group :assets do
-  gem 'sass-rails', "  ~> 3.1.0"
-  gem 'uglifier'
+  gem "sass-rails", "  ~> 3.1.0"
+  gem "uglifier"
 end
 
-gem 'jquery-rails'
+gem "jquery-rails"
 
 group :test do
-  gem 'turn', :require => false
+  gem "turn", :require => false
+end
+
+group :production do
+  gem "pg"
 end
