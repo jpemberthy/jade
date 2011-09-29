@@ -14,7 +14,7 @@ clients/logo-006.gif: clients/logo-006-52009adf348bcb5ed330dffb3b1a2d32.gif
 clients/logo-007.gif: clients/logo-007-dc67e66a663c09057afc48585164505f.gif
 ge-footer-background.gif: ge-footer-background-504e95281fa3682696585bacf27c4311.gif
 ge-header-background.png: ge-header-background-90c187e3e1b7b348d0d0e99c1d01ac17.png
-ge-logo.png: ge-logo-78b440e73524328ea5880e4b47abfa24.png
+ge-logo.png: ge-logo-cf656d7b9793b6b79c3b866542b77d6b.png
 in-benefits-background.gif: in-benefits-background-5bc9865a5abb8da2339c9cc5af40c1a8.gif
 in-benefits-divider.gif: in-benefits-divider-0b872f839ed8d5cbb5eb6da85c38fbfa.gif
 in-clients-logo-background.gif: in-clients-logo-background-c6df82a9569abd07c9e665464d42dac8.gif
@@ -71,4 +71,4 @@ testimonials/logo-001.gif: testimonials/logo-001-4e2aad20345f58bec2a75b7b047f8a0
 testimonials/logo-002.gif: testimonials/logo-002-e0ac3fa5946c5ba07cfe213358993a6e.gif
 testimonials/logo-003.gif: testimonials/logo-003-97f83ce985c2b212932ebea0aa17114a.gif
 application.js: application-d471576cb0c2ad7331abe844716325a9.js
-application.css: application-8673cb970b85d4be964ca1a767d295e4.css
+application.css: application-4a50c3b9ce9bfb45eb8053e86089ce12.css
