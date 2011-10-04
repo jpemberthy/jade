@@ -3,26 +3,23 @@
     .in-splash
       .in-splash-content
         .in-splash-left
-          %h1 The professional landing page that gets your message across and tailored to client goals with ROI in mind
+          %h1 The payments processor for the rest of the world.
           %ul
-            %li Caters for all businesses
-            %li Transitional Testimonials
-            %li Design provides credibility
-            %li Photo and video lightbox
-            %li Cross browser compatibility
-            %li PHP Form Validation
+            %li Developer Friendly.
+            %li Available in Latin America.
+            %li Forget about PayPal.
+            %li Focus on your core product, not on the payments.
         %span.in-splash-right
           = image_tag "in-splash.jpg", :height => "283", :width => "460"
         %span.in-splash-buttons
-          %span.splash-button
-            %a{:href => "#"} Buy Now
-          %span.splash-link
-            %a{:href => "#"} Take a Tour
+          %span.splash-button= link_to "Sign Up", "#sign-up"
+          %span.splash-link= link_to "Learn More", "#learn-more"
   #ge-header-container
     .ge-header
       .ge-logo
         = image_tag "ge-logo.png"
   #in-benefits-container
+    %a{:name => "learn-more"}
     .in-benefits
       %ul
         %li
@@ -93,6 +90,7 @@
                 %a{:href => "#"} Preview
       .clear
   #in-quote-container
+    %a{:name => "sign-up"}
     .in-quote
       .quote
         .quote-text
