@@ -108,24 +108,20 @@
             29 Bourke Street, Melbourne
             %br/
             Victoria, Australia, 3000
+
         .quote-form
-          %form#in-quote-form{:action => "process.php", :method => "post"}
+          %form#in-quote-form{:action => "http://jademerchant.us2.list-manage.com/subscribe/post?u=e341f5d600f732a2b41a3a9b2&id=da978fb54b", :method => "post", :name => "mc-embedded-subscribe-form", target: "_blank"}
             %fieldset
-              .form-left
-                %label{:for => "fullname"}
-                  Full Name
-                  %span *
-                %input#fullname{:name => "fullname", :type => "text"}/
-              .form-right
-                %label{:for => "emailaddress"}
-                  Email
-                  %span *
-                %input#emailaddress{:name => "emailaddress", :type => "text"}/
-              %label{:for => "message"}
-                Message
+              %label{:for => "FNAME"}
+                Who are you?
+              %input#fullname{:name => "FNAME", :type => "text"}
+
+              %label{:for => "EMAIL"}
+                Email
                 %span *
-              %textarea#message{:cols => "10", :name => "message", :rows => "5"}
-              %button{:type => "submit"} Send
+              %input#emailaddress{:name => "EMAIL", :type => "text"}
+              %button{type: "submit", value: "Subscribe", name: "subscribe"} Send
+
   #ge-footer-container
     .ge-footer
       .ge-copyright
