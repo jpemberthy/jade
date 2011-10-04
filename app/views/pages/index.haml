@@ -94,28 +94,36 @@
     .in-quote
       .quote
         .quote-text
-          %h2 Request a Quote
+          %h2 Sign Up
+          %p We are currently in private beta. You can request an invitation by filling this form.
+
           %p
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc bibendum turpis ut est lacinia id molestie mauris fermentum.
-            %br/
-            %br/
+            You can also contact us at:
+
+            %strong Twitter:
+            = link_to "@jademerchant", "http://twitter.com/jademerchant"
+            %br
+            %strong Email:
+            = link_to "hello@jademerchant.com", "mailto:hello@jademerchant.com"
+            %br
+            %strong Skype:
+            = link_to "jademerchant", "skype:jademerchant"
+            %br
             %strong Phone:
-            1300 000 000
-            %br/
-            %br/
-            %strong Address:
-            %br/
-            29 Bourke Street, Melbourne
-            %br/
-            Victoria, Australia, 3000
+            %br
+            +1 (415) 800-3673 (USA)
+            %br
+            +57 (311) 605-5811 (Colombia)
 
         .quote-form
           %form#in-quote-form{:action => "http://jademerchant.us2.list-manage.com/subscribe/post?u=e341f5d600f732a2b41a3a9b2&id=da978fb54b", :method => "post", :name => "mc-embedded-subscribe-form", target: "_blank"}
             %fieldset
               %label{:for => "FNAME"}
-                Who are you?
+                Your Name/Company Name
               %input#fullname{:name => "FNAME", :type => "text"}
-
+              %label{:for => "URL"}
+                Website
+              %input#fullname{:name => "URL", :type => "text"}
               %label{:for => "EMAIL"}
                 Email
                 %span *
