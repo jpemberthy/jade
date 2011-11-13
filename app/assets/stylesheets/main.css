@@ -1,0 +1,64 @@
+h1 {
+  font-size: 120px;
+  font-family: helvetica;
+  color: #DDD;
+  text-align: right;
+  width: 920px;
+  margin: 0 auto;
+  margin-top: 110px;
+}
+
+span.green {
+  color: #5BD455;
+  display: block;
+  text-align: right;
+}
+
+form {
+  width: 700px;
+  margin: 0 auto;
+  margin-top: 75px;
+}
+
+form * {
+  float: left;
+}
+
+input[type="text"] {
+  width: 520px;
+  font-size: 32px;
+  height: 48px;
+  color: #444;
+  border: 1px solid #999;
+  font-family: helvetica;
+}
+
+button {
+   cursor: pointer;
+  display: inline-block;
+  background-color: #E6E6E6;
+  background-repeat: no-repeat;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), color-stop(25%, #ffffff), to(#e6e6e6));
+  background-image: -webkit-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+  background-image: -moz-linear-gradient(top, #ffffff, #ffffff 25%, #e6e6e6);
+  background-image: -ms-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+  background-image: -o-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+  background-image: linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e6e6e6', GradientType=0);
+  padding: 5px 14px 6px;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  color: #333;
+  font-size: 13px;
+  line-height: normal;
+  border: 1px solid #CCC;
+  border-bottom-color: #BBB;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  height: 52px;
+  margin-right: 5px;
+
+}
