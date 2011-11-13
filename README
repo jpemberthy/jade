@@ -1,3 +1,5 @@
+Don't forget to load our initial data by running `rake db:seeds`
+
 Google Apps
 ----
 admin : mGynrYD7t9HJVH
@@ -7,7 +9,7 @@ Campfire
 ----
 jadebot : fdu49nxKWpPCFR
 
-Admins - (run rake db:seed first)
+Admins
 ----
 email: admin@jade.com
 password: password
