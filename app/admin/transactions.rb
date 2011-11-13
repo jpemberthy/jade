@@ -14,4 +14,13 @@ ActiveAdmin.register Transaction do
 
     default_actions
   end
+
+  controller do
+    def index
+      # I know this is horrible but they don't support yet a default sort order.
+      # https://github.com/gregbell/active_admin/issues/352#issuecomment-2724249
+      params[:order] ||= "date_desc"
+      index!
+    end
+  end
 end
