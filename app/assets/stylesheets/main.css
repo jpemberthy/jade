@@ -6,12 +6,14 @@ h1 {
   width: 920px;
   margin: 0 auto;
   margin-top: 110px;
+  letter-spacing: -5px
 }
 
 span.green {
   color: #5BD455;
   display: block;
   text-align: right;
+
 }
 
 form {
