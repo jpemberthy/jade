@@ -6,8 +6,8 @@ AdminUser.find_or_create_by_email("admin@jade.com",
 names = [ "Federico Builes", "Diego Echeverri", "Juan Pemberthy", "Tony Montana",
           "Michael Corleone", "Eddard Stark", "Robert Barratheon" ]
 
-100.times do
-  Transaction.create( date: 1.day.ago,
+1000.times do
+  Transaction.create( date: SecureRandom.random_number(365).days.ago,
                       amount: SecureRandom.random_number(25),
                       user_name: names.sample,
                       payment_method: Transaction::PAYMENT_OPTIONS.sample,
