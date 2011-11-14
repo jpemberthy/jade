@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  date: 2011-11-13
+  amount: 1.5
+  user_name: MyString
+  payment_method: MyString
+  last_four: MyString
+
+two:
+  date: 2011-11-13
+  amount: 1.5
+  user_name: MyString
+  payment_method: MyString
+  last_four: MyString
