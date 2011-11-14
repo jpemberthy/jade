@@ -1,5 +1,6 @@
 ActiveAdmin.register Transaction do
   config.sort_order = 'date_desc'
+  actions :index, :show
 
   filter :date
   filter :payment_method, as: :select, collection: Transaction::PAYMENT_OPTIONS
@@ -13,7 +14,5 @@ ActiveAdmin.register Transaction do
     column(:amount, sortable: :amount) { |t| number_to_currency(t.amount) }
     column :payment_method
     column "Last Four Digits", :last_four
-
-    default_actions
   end
 end
